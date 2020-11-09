@@ -1,11 +1,12 @@
 <template>
   <div>
     <!--breadcrumb navigation-->
-    <el-breadcrumb separator="/">
-      <el-breadcrumb-item :to="{ path: '/welcome' }">Home</el-breadcrumb-item>
+    <el-breadcrumb separator-class="el-icon-arrow-right">
+      <el-breadcrumb-item :to="{ path: '/home' }">Home</el-breadcrumb-item>
       <el-breadcrumb-item><a href="">Users</a></el-breadcrumb-item>
       <el-breadcrumb-item>Users List</el-breadcrumb-item>
     </el-breadcrumb>
+    <!--Card view-->
     <el-card>
       <!--searching input and add-->
       <el-row :gutter="20">
@@ -36,10 +37,11 @@
             <!--Edit button-->
             <el-button type="primary" icon="el-icon-edit" size="mini" @click="showEditDialog(scope.row.id)"></el-button>
             <!--Delete button-->
-            <el-button type="danger" icon="el-icon-delete" size="mini" @click="removeUserById(scope.row.id)"></el-button>
+            <el-button type="danger" icon="el-icon-delete" size="mini"
+                       @click="removeUserById(scope.row.id)"></el-button>
             <!--Assign roles button-->
             <el-tooltip effect="dark" content="Assign Role" placement="top" :enterable="false">
-              <el-button type="warning" icon="el-icon-setting" size="mini" @click="showEditDialog()"></el-button>
+              <el-button type="warning" icon="el-icon-setting" size="mini" @click="setRole(scope.row)"></el-button>
             </el-tooltip>
           </template>
         </el-table-column>
@@ -107,6 +109,31 @@
         <el-button @click="editDialogVisible = false">Cancel</el-button>
         <el-button type="primary" @click="editUserInfo">Confirm</el-button>
       </span>
+    </el-dialog>
+    <!--assign roles dialog-->
+    <el-dialog
+      title="Assign roles"
+      :visible.sync="setRoleDialogVisible"
+      width="30%"
+      @closed="setRoleDialogClosed">
+      <div>
+        <p>Current User: {{ userInfo.username }}</p>
+        <p>Current Role: {{ userInfo.role_name }}</p>
+        <p>Assign a new Role:
+          <el-select v-model="selectedRoleId" placeholder="Select">
+            <el-option
+              v-for="item in rolesList"
+              :key="item.id"
+              :label="item.roleName"
+              :value="item.id">
+            </el-option>
+          </el-select>
+        </p>
+      </div>
+      <span slot="footer" class="dialog-footer">
+    <el-button @click="setRoleDialogVisible = false">Cancel</el-button>
+    <el-button type="primary" @click="saveRoleInfo">Confirm</el-button>
+  </span>
     </el-dialog>
   </div>
 </template>
@@ -220,7 +247,11 @@ export default {
             trigger: 'blur'
           }
         ]
-      }
+      },
+      setRoleDialogVisible: false,
+      userInfo: {},
+      rolesList: [],
+      selectedRoleId: ''
     }
   },
   created () {
@@ -309,6 +340,32 @@ export default {
       }
       this.$message.success('Succeeded to delete the user!')
       await this.getUserList()
+    },
+    async setRole (userInfo) {
+      this.userInfo = userInfo
+      const { data: res } = await this.$http.get('roles')
+      if (res.meta.status !== 200) {
+        return this.$message.error('Failed to get the roles list')
+      }
+      this.rolesList = res.data
+      this.setRoleDialogVisible = true
+    },
+    async saveRoleInfo () {
+      if (!this.selectedRoleId) {
+        return this.$message.error('Please select the role you want to assign!')
+      }
+      const { data: res } = await this.$http.put(`users/${this.userInfo.id}/role`,
+        { rid: this.selectedRoleId })
+      if (res.meta.status !== 200) {
+        return this.$message.error('Failed to update roles!')
+      }
+      this.$message.success('Succeeded to update roles!')
+      this.getUserList()
+      this.setRoleDialogVisible = false
+    },
+    setRoleDialogClosed () {
+      this.selectedRoleId = ''
+      this.userInfo = ''
     }
   }
 }
