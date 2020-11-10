@@ -23,3 +23,7 @@ body,
 .el-menu {
     font-family: "Arial Nova", serif;
 }
+.el-cascader-panel {
+    height: 300px
+}
+
