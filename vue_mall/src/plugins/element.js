@@ -31,8 +31,14 @@ import {
   Cascader,
   Alert,
   Tabs,
-  TabPane
+  TabPane,
+  Step,
+  Steps,
+  CheckboxGroup,
+  Checkbox,
+  Upload
 } from 'element-ui'
+
 /* import language package */
 import lang from 'element-ui/lib/locale/lang/en'
 import locale from 'element-ui/lib/locale'
@@ -68,5 +74,10 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
