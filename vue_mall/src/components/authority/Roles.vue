@@ -15,7 +15,7 @@
         </el-col>
       </el-row>
       <!--table-->
-      <el-table :data="rolesList" border stripe>
+      <el-table :data="rolesList" border stripe row-key="id">
         <!--expand-->
         <el-table-column type="expand">
           <template slot-scope="scope">

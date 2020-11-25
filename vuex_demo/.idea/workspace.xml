@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c2e19d5-e246-438a-b64c-463556f53354" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../vue_mall/src/main-prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/.idea/vue_mall_serve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/css/app.1e29b06f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/css/cate_params.17378da8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/css/list_add.d0237aea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/css/login_home_welcome.b585a8fb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/css/order_report.de82ef89.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/css/users_rights_roles.ac71b1e4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/img/horse.b5a855ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/img/iconfont.82d03b7e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/img/logo.82b9c7a5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/app.06b4ec51.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/app.06b4ec51.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/cate_params.018a59ef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/cate_params.018a59ef.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/cate_params~list_add~users_rights_roles.5cf68cfe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/cate_params~list_add~users_rights_roles.5cf68cfe.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/chunk-vendors.111e264a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/chunk-vendors.111e264a.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/list_add.8892834f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/list_add.8892834f.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/login_home_welcome.8e62a020.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/login_home_welcome.8e62a020.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/order_report.24e6bdae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/order_report.24e6bdae.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/users_rights_roles.f63c9c94.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/dist/js/users_rights_roles.f63c9c94.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/full_chain.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue_mall_serve/private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Addition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Subtraction.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/src/components/authority/Roles.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/src/components/authority/Roles.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/src/main-dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_mall/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_mall/src/router/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1khhIQhFml34UpgNKGKsWKI4a63" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\webideawork\code\vuex_demo\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm serve">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm serve" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c2e19d5-e246-438a-b64c-463556f53354" name="Default Changelist" comment="" />
+      <created>1606158651352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606158651352</updated>
+      <workItem from="1606158656728" duration="5925000" />
+      <workItem from="1606237080186" duration="1833000" />
+      <workItem from="1606306895948" duration="5906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1606328451043">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1606328451043" />
+  </component>
+</project>
